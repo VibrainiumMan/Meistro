@@ -1,0 +1,53 @@
+body {
+	background-color: #f1f1f1
+}
+h1 {
+	font-size: 100px;
+	font-family: "Courier", monospace;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-start;
+	padding: 30px;
+	gap: 30px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: black;
+	font-family: "Courier", monospace;
+	font-size: 25px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+}
+
+.dropdown-content a {
+    	display: block;
+    	color: black;
+    	padding: 10px;
+    	text-decoration: none;
+    	font-family: 'Courier New', Courier, monospace;
+    	font-size: 1rem;
+    	transition: background-color 0.2s ease;
+}
+
+.dropdown-content a:hover {
+    	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dropdown:hover .dropdown-content {
+    	display: block;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
